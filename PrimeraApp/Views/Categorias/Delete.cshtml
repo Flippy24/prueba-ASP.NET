@@ -26,8 +26,10 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Eliminar" class="btn btn-default" /> |
-            @Html.ActionLink("volver", "Index")
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            <div class="btn btn-outline-secondary">
+                @Html.ActionLink("volver", "Index")
+            </div>
         </div>
     }
 </div>

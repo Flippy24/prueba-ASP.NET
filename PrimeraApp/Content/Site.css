@@ -203,3 +203,10 @@ footer {
     text-align: center;
     font-size: 15px;
 }
+
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+    width:auto;
+}
