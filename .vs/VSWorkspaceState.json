@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PrimeraApp",
+    "\\PrimeraApp\\bin",
+    "\\PrimeraApp\\Content",
+    "\\PrimeraApp\\Controllers",
+    "\\PrimeraApp\\Views",
+    "\\PrimeraApp\\Views\\Home"
+  ],
+  "SelectedNode": "\\PrimeraApp\\Views\\Home\\Catalogo.cshtml",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,205 @@
+﻿
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:25px 50px 50px 50px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #777;
+    border-color: #fff
+}
+
+/*CSS Michi*/
+header {
+    height: 200px;
+    top:0;
+    text-align: left;
+    color: aliceblue;
+    /*padding: 2%;*/
+    background-color: darkgray;
+    background-image: url("../Content/img/gatitoDormido.jpg");
+    background-size: 100%;
+    background-position: 0% 35%;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+nav {
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    padding: 2%;
+}
+
+    nav ul li {
+        display: inline-block;
+        padding: 2%;
+    }
+
+        nav ul li a {
+            font-family: 'Montserrat', sans-serif;
+            color: azure;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: block;
+        }
+
+            nav ul li a:hover {
+                letter-spacing: 4px;
+                transition: 0.05s;
+            }
+
+section article ul li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2%;
+    height: 60px;
+}
+
+    section article ul li:hover {
+        letter-spacing: 4px;
+        transition: 0.05s;
+    }
+/*Acá doy esilo a la ruta de capa de mi titulo-le di nombre de clase ttl y lo llamo con el .ttl*/
+.ttl {
+    height: 100px;
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/*reglas para el responsivo*/
+@media only screen and (max-width: 600px) {
+    .ttl {
+        font-size: 30px;
+        position: relative;
+        top: -20px;
+    }
+
+    footer {
+        font-size: 10px;
+        height: 15px;
+    }
+
+    .term {
+        font-size: 12px !important;
+    }
+}
+
+#Capa_2 {
+    width: 43px;
+    color: #fff;
+}
+
+#hamsvg {
+    margin: -6px;
+}
+
+.art {
+    text-align: center;
+}
+
+    .art li {
+        margin: 2% 6%;
+        height: 100px;
+    }
+/*nav menu css hambaga*/
+
+body {
+
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+        .topnav a.icon {
+            background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+            .topnav a.icon:hover {
+                background-color: #ddd;
+                color: #bbb;
+            }
+
+#myLinks a:hover {
+    background-color: #ddd;
+    color: #bbb;
+}
+
+.active {
+    background-color: #000;
+    color: white;
+}
+
+footer {
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+    footer ul li {
+        display: inline-block;
+        padding: 2%;
+    }
+
+.term {
+    text-align: center;
+    font-size: 15px;
+}
